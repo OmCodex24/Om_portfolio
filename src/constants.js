@@ -31,7 +31,7 @@ import figmaLogo from './assets/tech_logo/figma.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 import postgreLogo from './assets/tech_logo/postgre.png';
-import csharpLogo from './assets/tech_logo/csharp.png';
+import musicLogo from './assets/work_logo/music.png';
 
 // Experience Section Logo's
 import webverseLogo from './assets/company_logo/webverse_logo.png';
@@ -104,59 +104,7 @@ export const SkillsInfo = [
 ];
 
 export const experiences = [
-  {
-    id: 0,
-    img: webverseLogo,
-    role: "Fullstack Developer",
-    company: "Webverse Digital",
-    date: "April 2024 - Present",
-    desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
-    skills: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "React JS",
-      "TypeScript",
-      "Node JS",
-      "Tailwind CSS",
-      "MongoDb",
-      "Redux",
-      " Next Js",
-    ],
-  },
-  {
-    id: 1,
-    img: agcLogo,
-    role: "Fullstack Engineer",
-    company: "Agumentik Group of Companies",
-    date: "July 2023 - March 2024",
-    desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "JavaScript",
-      "Tailwind CSS",
-      "HTML",
-      "CSS",
-      "SQL",
-    ],
-  },
-  {
-    id: 2,
-    img: newtonschoolLogo,
-    role: "Frontend Intern",
-    company: "Newton School",
-    date: "September 2021 - August 2022",
-    desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-    skills: [
-      "HTML",
-      "CSS",
-      "Javascript",
-      "Bootstrap",
-      "Figma",
-      "Material UI",
-    ],
-  },
+
 ];
 
 export const education = [
@@ -208,7 +156,7 @@ export const projects = [
       "A full-stack password management application built using React, Tailwind CSS, Express.js, and MongoDB. It allows users to securely store and manage login credentials for various websites. Emphasizes data security, clean UI, and efficient CRUD operations on encrypted data.",
     image: passwordManagerLogo, // replace with your actual image import/variable
     tags: ["React", "Tailwind CSS", "Express.js", "MongoDB", "Node.js"],
-    github: "https://github.com/tantrik-Om/Passwork-Manager",
+    github: "https://github.com/OmCodex24/Passwork-Manager",
     webapp: "", // add live demo link if deployed
   },
   {
@@ -221,6 +169,14 @@ export const projects = [
     github: "https://github.com/tantrik-Om/Todo-Helpdesk-Task-Manager",
     webapp: "", // add live demo link if available
   },
-  
-
+  {
+    id: 3,
+    title: "MusicVerse – Animated Music Experience",
+    description:
+      "A visually immersive and animation-rich music website built with Next.js and Aceternity UI. The project focuses on creating smooth, interactive user experiences using animated components, wobble cards, spotlight backgrounds, and gradient effects. Designed for music enthusiasts, the site delivers a modern, responsive, and aesthetic interface with dynamic motion elements throughout.",
+    image: musicLogo, // replace with your actual image import or variable
+    tags: ["Next.js", "React", "Tailwind CSS", "Aceternity UI", "Framer Motion"],
+    github: "https://github.com/your-repo-link", // add your repo link
+    webapp: "", // add live demo link if hosted
+  }
 ];  

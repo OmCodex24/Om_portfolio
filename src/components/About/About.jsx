@@ -2,6 +2,7 @@ import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
 import profileImage from '../../assets/profile2.jpg';
+import { Spotlight } from '../ui/spotlight';
 
 const About = () => {
   return (
@@ -9,6 +10,7 @@ const About = () => {
       id="about"
       className="py-4 px-[7vw] md:px-[7vw] lg:px-[20vw] font-sans mt-16 md:mt-24 lg:mt-32"
     >
+      <Spotlight />
       <div className="flex flex-col-reverse md:flex-row justify-between items-center">
         {/* Left Side */}
         <div className="md:w-1/2 text-center md:text-left mt-8 md:mt-0">
