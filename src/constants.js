@@ -4,24 +4,22 @@ import cssLogo from './assets/tech_logo/css.png';
 import sassLogo from './assets/tech_logo/sass.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
 import reactjsLogo from './assets/tech_logo/reactjs.png';
-import angularLogo from './assets/tech_logo/angular.png';
+
 import reduxLogo from './assets/tech_logo/redux.png';
 import nextjsLogo from './assets/tech_logo/nextjs.png';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
-import gsapLogo from './assets/tech_logo/gsap.png';
-import materialuiLogo from './assets/tech_logo/materialui.png';
 import bootstrapLogo from './assets/tech_logo/bootstrap.png';
-import springbootLogo from './assets/tech_logo/springboot.png';
+
 import nodejsLogo from './assets/tech_logo/nodejs.png';
 import expressjsLogo from './assets/tech_logo/express.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
-import firebaseLogo from './assets/tech_logo/firebase.png';
+
 import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
-import javaLogo from './assets/tech_logo/java.png';
+import javascriptLogo2 from './assets/tech_logo/javascript.png';
 import pythonLogo from './assets/tech_logo/python.png';
-import typescriptLogo from './assets/tech_logo/typescript.png';
+
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
@@ -30,13 +28,6 @@ import mcLogo from './assets/tech_logo/mc.png';
 import figmaLogo from './assets/tech_logo/figma.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
-import postgreLogo from './assets/tech_logo/postgre.png';
-import musicLogo from './assets/work_logo/music.png';
-
-// Experience Section Logo's
-import webverseLogo from './assets/company_logo/webverse_logo.png';
-import agcLogo from './assets/company_logo/agc_logo.png';
-import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // Education Section Logo's
 import sinlogo from './assets/education_logo/sinhgad_logo.png';
@@ -47,7 +38,7 @@ import champavatiLogo from './assets/education_logo/cham_logo.png';
 import spotifyCloneLogo from './assets/work_logo/spotify_clone.png';
 import passwordManagerLogo from './assets/work_logo/password_manager.png';
 import todologo from './assets/work_logo/todo.png';
-
+import musicLogo from './assets/work_logo/music.png';
 
 export const SkillsInfo = [
   {
@@ -58,7 +49,6 @@ export const SkillsInfo = [
       { name: 'SASS', logo: sassLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
-
       { name: 'Redux', logo: reduxLogo },
       { name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
@@ -68,12 +58,10 @@ export const SkillsInfo = [
   {
     title: 'Backend',
     skills: [
-
       { name: 'Node JS', logo: nodejsLogo },
       { name: 'Express JS', logo: expressjsLogo },
       { name: 'MySQL', logo: mysqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
-
     ],
   },
   {
@@ -81,11 +69,8 @@ export const SkillsInfo = [
     skills: [
       { name: 'C', logo: cLogo },
       { name: 'C++', logo: cppLogo },
-
       { name: 'Python', logo: pythonLogo },
-
-      { name: 'JavaScript', logo: javascriptLogo },
-
+      { name: 'JavaScript', logo: javascriptLogo2 },
     ],
   },
   {
@@ -103,12 +88,9 @@ export const SkillsInfo = [
   },
 ];
 
-export const experiences = [
-
-];
+export const experiences = [];
 
 export const education = [
-
   {
     id: 0,
     img: sinlogo,
@@ -143,40 +125,40 @@ export const projects = [
     id: 0,
     title: "Spotify Clone",
     description:
-      "A responsive music player UI inspired by Spotify, built using HTML, CSS, and JavaScript. Designed with a mobile-first approach and interactive playback features to mimic core functionalities of the original app. Offers a visually engaging interface and smooth user interaction.",
-    image: spotifyCloneLogo, // replace with your actual image import/variable
+      "A responsive music player UI inspired by Spotify, built using HTML, CSS, and JavaScript...",
+    image: spotifyCloneLogo,
     tags: ["HTML", "CSS", "JavaScript"],
     github: "https://github.com/tantrik-Om/Spotify_clone.git",
-    webapp: "", // add live link if available
+    webapp: "",
   },
   {
     id: 1,
     title: "Password Manager",
     description:
-      "A full-stack password management application built using React, Tailwind CSS, Express.js, and MongoDB. It allows users to securely store and manage login credentials for various websites. Emphasizes data security, clean UI, and efficient CRUD operations on encrypted data.",
-    image: passwordManagerLogo, // replace with your actual image import/variable
+      "A full-stack password management application built using React, Tailwind CSS...",
+    image: passwordManagerLogo,
     tags: ["React", "Tailwind CSS", "Express.js", "MongoDB", "Node.js"],
     github: "https://github.com/OmCodex24/Passwork-Manager",
-    webapp: "", // add live demo link if deployed
+    webapp: "",
   },
   {
     id: 2,
     title: "Todo App – Helpdesk Task Manager",
     description:
-      "A simple and user-friendly Todo List web application built using React. It allows users to manage daily tasks efficiently with features like adding, editing, deleting, and marking tasks as complete. The app also provides toast notifications for user actions and supports toggling finished tasks visibility, all wrapped in a clean, responsive UI.",
-    image: todologo, // replace with your actual image import/variable
+      "A simple and user-friendly Todo List web application built using React...",
+    image: todologo,
     tags: ["React", "Tailwind CSS", "React Toastify", "React Icons", "Vite"],
     github: "https://github.com/tantrik-Om/Todo-Helpdesk-Task-Manager",
-    webapp: "", // add live demo link if available
+    webapp: "",
   },
   {
     id: 3,
     title: "MusicVerse – Animated Music Experience",
     description:
-      "A visually immersive and animation-rich music website built with Next.js and Aceternity UI. The project focuses on creating smooth, interactive user experiences using animated components, wobble cards, spotlight backgrounds, and gradient effects. Designed for music enthusiasts, the site delivers a modern, responsive, and aesthetic interface with dynamic motion elements throughout.",
-    image: musicLogo, // replace with your actual image import or variable
+      "A visually immersive and animation-rich music website built with Next.js...",
+    image: musicLogo,
     tags: ["Next.js", "React", "Tailwind CSS", "Aceternity UI", "Framer Motion"],
-    github: "https://github.com/your-repo-link", // add your repo link
-    webapp: "", // add live demo link if hosted
+    github: "https://github.com/your-repo-link",
+    webapp: "",
   }
-];  
+];
